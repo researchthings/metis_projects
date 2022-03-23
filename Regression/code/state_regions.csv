@@ -1,0 +1,52 @@
+state,state_code,region,division
+alaska,ak,west,pacific
+alabama,al,south,east south central
+arkansas,ar,south,west south central
+arizona,az,west,mountain
+california,ca,west,pacific
+colorado,co,west,mountain
+connecticut,ct,northeast,new england
+district of columbia,dc,south,south atlantic
+delaware,de,south,south atlantic
+florida,fl,south,south atlantic
+georgia,ga,south,south atlantic
+hawaii,hi,west,pacific
+iowa,ia,midwest,west north central
+idaho,id,west,mountain
+illinois,il,midwest,east north central
+indiana,in,midwest,east north central
+kansas,ks,midwest,west north central
+kentucky,ky,south,east south central
+louisiana,la,south,west south central
+massachusetts,ma,northeast,new england
+maryland,md,south,south atlantic
+maine,me,northeast,new england
+michigan,mi,midwest,east north central
+minnesota,mn,midwest,west north central
+missouri,mo,midwest,west north central
+mississippi,ms,south,east south central
+montana,mt,west,mountain
+north carolina,nc,south,south atlantic
+north dakota,nd,midwest,west north central
+nebraska,ne,midwest,west north central
+new hampshire,nh,northeast,new england
+new jersey,nj,northeast,middle atlantic
+new mexico,nm,west,mountain
+nevada,nv,west,mountain
+new york,ny,northeast,middle atlantic
+ohio,oh,midwest,east north central
+oklahoma,ok,south,west south central
+oregon,or,west,pacific
+pennsylvania,pa,northeast,middle atlantic
+rhode island,ri,northeast,new england
+south carolina,sc,south,south atlantic
+south dakota,sd,midwest,west north central
+tennessee,tn,south,east south central
+texas,tx,south,west south central
+utah,ut,west,mountain
+virginia,va,south,south atlantic
+vermont,vt,northeast,new england
+washington,wa,west,pacific
+wisconsin,wi,midwest,east north central
+west virginia,wv,south,south atlantic
+wyoming,wy,west,mountain
