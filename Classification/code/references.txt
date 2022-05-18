@@ -1,0 +1,16 @@
+# for the tld_list
+# original version of this file is from the Splunk app "URL Toolbox" located here: 
+
+https://splunkbase.splunk.com/app/2734/
+https://web.archive.org/web/20161130185550/http://fsecurify.com/using-machine-learning-detect-malicious-urls/
+https://stackoverflow.com/a/50084009
+https://datascienceparichay.com/article/pandas-split-column-by-delimiter/
+https://stackoverflow.com/questions/37335598/how-to-get-the-length-of-a-cell-value-in-pandas-dataframe
+https://stackoverflow.com/questions/49234374/how-to-count-vowels-and-consonants-in-pandas-dataframe-both-uppercase-and-lower
+https://stackoverflow.com/questions/13174468/how-do-you-join-all-items-in-a-list
+https://machinelearningmastery.com/modeling-pipeline-optimization-with-scikit-learn/
+https://machinelearningmastery.com/modeling-pipeline-optimization-with-scikit-learn/
+https://towardsdatascience.com/ensemble-learning-in-sklearn-587f21246e8d
+https://stackoverflow.com/questions/332289/how-do-i-change-the-size-of-figures-drawn-with-matplotlib
+https://towardsdatascience.com/ensemble-learning-in-sklearn-587f21246e8d
+365 Data Science, ML in Python course, section 4.9
