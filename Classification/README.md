@@ -12,7 +12,7 @@
 ### Presentation
 
 - presentation_slides/Classify URL Reputation Presentation.pdf
-- presentation_slides/Classify URL Reputation.pdf
+- presentation_slides/Classify URL Reputation.pptx
 
 ### Written Description
 
