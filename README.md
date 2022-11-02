@@ -7,3 +7,4 @@
 - Project 3: Business
 - Project 4: Classification
 - Project 5: NLP
+- Project 6: Deep Learning
