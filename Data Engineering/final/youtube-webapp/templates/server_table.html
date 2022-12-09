@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <table id="data" class="table table-striped">
+    <thead>
+      <tr>
+        <th>vid_id</th>
+        <th>added_date</th>
+        <th>channel_id</th>
+        <th>channel_title</th>
+        <th>title</th>
+        <th>description</th>
+        <th>tags</th>
+        <th>category_id</th>
+        <th>duration</th>
+        <th>view_count</th>
+        <th>like_count</th>
+        <th>favorited_count</th>
+        <th>comment_count</th>
+        <th>comment</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+{% endblock %}
+
+{% block scripts %}
+  <script>
+    $(document).ready(function () {
+      $('#data').DataTable({
+        ajax: '/api/data',
+        serverSide: true,
+        columns: [
+            {data: 'vid_id'},
+            {data: 'added_date'},
+            {data: 'channel_id'},
+            {data: 'channel_title'},
+            {data: 'title'},
+            {data: 'description'},
+            {data: 'tags'},
+            {data: 'category_id'},
+            {data: 'duration'},
+            {data: 'view_count'},
+            {data: 'like_count'},
+            {data: 'favorited_count'},
+            {data: 'comment_count'},
+            {data: 'comment'}
+        ],
+      });
+    });
+  </script>
+{% endblock %}

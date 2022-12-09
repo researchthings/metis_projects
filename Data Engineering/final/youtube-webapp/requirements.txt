@@ -1,0 +1,17 @@
+Flask
+requests
+ptvsd
+click
+Flask-SQLAlchemy
+flask_sqlalchemy
+greenlet
+itsdangerous
+Jinja2
+MarkupSafe
+python-dateutil
+six
+SQLAlchemy
+text-unidecode
+Werkzeug
+gunicorn
+psycopg2-binary

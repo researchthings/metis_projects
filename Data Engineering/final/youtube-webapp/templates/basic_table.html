@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <table id="data" class="table table-striped">
+    <thead>
+        <tr>
+            <th>vid_id</th>
+            <th>added_date</th>
+            <th>channel_id</th>
+            <th>channel_title</th>
+            <th>title</th>
+            <th>description</th>
+            <th>tags</th>
+            <th>category_id</th>
+            <th>duration</th>
+            <th>view_count</th>
+            <th>like_count</th>
+            <th>favorited_count</th>
+            <th>comment_count</th>
+            <th>comment</th>
+          </tr>
+    </thead>
+    <tbody>
+      {% for video in videos %}
+      <tr>
+        <td>{{ video.vid_id }}</td>
+        <td>{{ video.age }}</td>
+        <td>{{ video.added_date }}</td>
+        <td>{{ video.channel_id }}</td>
+        <td>{{ video.channel_title }}</td>
+        <td>{{ video.title }}</td>
+        <td>{{ video.description }}</td>
+        <td>{{ video.tags }}</td>
+        <td>{{ video.category_id }}</td>
+        <td>{{ video.duration }}</td>
+        <td>{{ video.view_count }}</td>
+        <td>{{ video.like_count }}</td>
+        <td>{{ video.favorited_count }}</td>
+        <td>{{ video.comment_count }}</td>
+        <td>{{ video.comment }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}
+
+{% block scripts %}
+  <script>
+    $(document).ready(function () {
+      $('#data').DataTable({
+        columns: [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null],
+      });
+    });
+  </script>
+{% endblock %}
